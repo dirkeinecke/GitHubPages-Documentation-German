@@ -1,5 +1,8 @@
 encoding: utf-8
 
-author :
-  name : Dirk Einecke
-  email : dirk.einecke@gmail.com
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Dirk Einecke"
